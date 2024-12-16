@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	Page d'inscription
+{% endblock %}
+
+{% block body %}
+	<section class="container mt-3">
+		<h1 class="text-center">Inscription</h1>
+		{{ form_start(form, {attr: {class: 'card p-3 w-75 mx-auto'}}) }}
+		{{ form_widget(form) }}
+		<button type="submit" class="btn btn-primary">S'inscrire</button>
+		{{ form_end(form) }}
+	</section>
+{% endblock %}
