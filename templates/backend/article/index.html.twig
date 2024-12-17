@@ -18,7 +18,12 @@
 						</div>
 						<div class="card-body">
 							<em>{{ article.createdAt|date('d/m/Y') }}</em>
-							<span class="badge bg-{{ article.enabled ? 'success' : 'danger' }}">{{ article.enabled ? 'Actif' : 'Inactif' }}</span>
+
+							<div class="form-check form-switch" data-id="{{ article.id }}">
+								<input class="form-check-input" type="checkbox" id="switch-article-{{ article.id }}"/>
+								<label class="form-check-label badge bg-{{ article.enabled ? 'success' : 'danger' }}" for="switch-article-{{ article.id }}">{{ article.enabled ? 'Actif' : 'Inactif' }}</label>
+							</div>
+
 							<p>
 								<strong>Auteur:</strong>
 								{{ article.user.fullName }}
