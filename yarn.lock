@@ -1277,6 +1277,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@orchidjs/sifter@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@orchidjs/sifter@npm:1.1.0"
+  dependencies:
+    "@orchidjs/unicode-variants": "npm:^1.1.2"
+  checksum: 10c0/615f4c8f340c062d1a944ae88d7d745353e45d14d002c6966bc02ef44aca13c904942836f9ad89cbe2b5d8fa3b885c2b00b65be8d318cabc75f440949068ed6a
+  languageName: node
+  linkType: hard
+
+"@orchidjs/unicode-variants@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@orchidjs/unicode-variants@npm:1.1.2"
+  checksum: 10c0/7836e0766641d79a0337a2a8ca7f49051bb71e19e0e8fc64cdbafac4f2f718abd368b364ad79a9b13547a70e24cebb3cc4d71e75f22791ade8ba80654eb1323f
+  languageName: node
+  linkType: hard
+
 "@parcel/watcher-android-arm64@npm:2.5.0":
   version: 2.5.0
   resolution: "@parcel/watcher-android-arm64@npm:2.5.0"
@@ -1454,6 +1470,16 @@ __metadata:
   peerDependencies:
     "@hotwired/stimulus": ^3.0
   checksum: 10c0/3ba997685b45eaf7214807847d9626835011641a580286fc9c90c595da2c3d6cda67b358e15dca0d95c719941fd4074b77655902dd2dc710850ac8840fb5d266
+  languageName: node
+  linkType: hard
+
+"@symfony/ux-autocomplete@file:vendor/symfony/ux-autocomplete/assets::locator=root-workspace-0b6124%40workspace%3A.":
+  version: 1.0.0
+  resolution: "@symfony/ux-autocomplete@file:vendor/symfony/ux-autocomplete/assets#vendor/symfony/ux-autocomplete/assets::hash=98d9d4&locator=root-workspace-0b6124%40workspace%3A."
+  peerDependencies:
+    "@hotwired/stimulus": ^3.0.0
+    tom-select: ^2.2.2
+  checksum: 10c0/c83fd3aed234546787cbd8c89d8d972b45d27254dd9a7fc687a6a8c270929891bafa045362573e4745e47569a2bb73cebd98442f594906242bab2898b4aaefd0
   languageName: node
   linkType: hard
 
@@ -4452,6 +4478,7 @@ __metadata:
     "@hotwired/turbo": "npm:^7.1.1 || ^8.0"
     "@popperjs/core": "npm:^2.11.8"
     "@symfony/stimulus-bridge": "npm:^3.2.0"
+    "@symfony/ux-autocomplete": "file:vendor/symfony/ux-autocomplete/assets"
     "@symfony/ux-turbo": "file:vendor/symfony/ux-turbo/assets"
     "@symfony/webpack-encore": "npm:^5.0.0"
     bootstrap: "npm:^5.3.3"
@@ -4460,6 +4487,7 @@ __metadata:
     regenerator-runtime: "npm:^0.13.9"
     sass: "npm:^1.81.0"
     sass-loader: "npm:^16.0.1"
+    tom-select: "npm:^2.2.2"
     webpack: "npm:^5.74.0"
     webpack-cli: "npm:^5.1.0"
     webpack-notifier: "npm:^1.15.0"
@@ -4869,6 +4897,16 @@ __metadata:
   dependencies:
     is-number: "npm:^7.0.0"
   checksum: 10c0/487988b0a19c654ff3e1961b87f471702e708fa8a8dd02a298ef16da7206692e8552a0250e8b3e8759270f62e9d8314616f6da274734d3b558b1fc7b7724e892
+  languageName: node
+  linkType: hard
+
+"tom-select@npm:^2.2.2":
+  version: 2.4.1
+  resolution: "tom-select@npm:2.4.1"
+  dependencies:
+    "@orchidjs/sifter": "npm:^1.1.0"
+    "@orchidjs/unicode-variants": "npm:^1.1.2"
+  checksum: 10c0/e12917319dc570741c40ba937ff07a212d4644d1b754ee52f284b91a261ed8cca04ae48c9ff90a13cdc9e7d1f97fa7aad389e7c55cc2be60057ffc7259c84b30
   languageName: node
   linkType: hard
 
